@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import MainCard from './components/MainCard';
-import Nextsection from './components/Nextsection';
-
 
 
 const App = () => {
@@ -10,14 +8,6 @@ const App = () => {
    <div>
       <Navbar/>
       <MainCard/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
-      <Nextsection/>
    </div>
   );
 };
